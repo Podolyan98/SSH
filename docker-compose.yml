@@ -10,7 +10,7 @@ services:
       - MONGO_URL=mongodb://mongodb/titra
       - PORT=3002
     ports:
-      - "3002:3000"
+      - "3002:3002"
     restart: always
   mongodb:
     image: mongo:4.2
